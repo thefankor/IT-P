@@ -1,3 +1,5 @@
+
+
 public class Task1 {
     public static void main(String args[]) {
         System.out.println(convert(8));
@@ -75,3 +77,5 @@ public class Task1 {
         return needTables - table;
     }
 } 
+
+// https://github.com/thefankor/IT-P

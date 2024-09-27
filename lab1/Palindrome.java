@@ -14,13 +14,13 @@ public class Palindrome {
         String newStr = "";
         for (int x = s.length()-1; x >= 0; x--) {
             newStr += s.charAt(x);
+            // if (s.charAt(0) == 'a') return "";
         }
         return newStr;
     }
 
     public static Boolean isPalindrome(String s) {
-        if (s.equals(reverseString(s))) return true;
-        return false;
+        return s.equals(reverseString(s));
     }
 }
     
