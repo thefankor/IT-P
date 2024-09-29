@@ -11,7 +11,7 @@ public class Laptop extends Gadget{
         this.cpu = "M3";
         this.ram = 8;
         this.ssd = 256;
-        System.out.println("Создан объект Laptop: "+brand+" "+model);
+        System.out.println("Создан объект Laptop");
     }
 
     public Laptop(String brand, String model, double price, String cpu, int ram, int ssd) {

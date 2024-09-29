@@ -10,7 +10,7 @@ public class Phone extends Gadget{
         this.batteryCapacity = 3000;
         this.screenDiagonal = 6.1;
         this.color = "black";
-        System.out.println("Создан объект Phone: "+brand+" "+model);
+        System.out.println("Создан объект Phone");
     }
 
 

@@ -11,7 +11,7 @@ public class Watch extends Gadget{
         this.color = "silver";
         this.strap = "silicon";
         this.waterResistance = true;
-        System.out.println("Создан объект Watch: "+brand+" "+model);
+        System.out.println("Создан объект Watch");
     }
 
     public Watch(String brand, String model, double price, String color, String strap, Boolean waterResistance) {

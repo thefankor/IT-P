@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Tablet p0 = new Tablet("Apple", "ipad 16", 900, 4000, 6, "black");
+        p0.displayInfo();
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Бренд телефона: ");
