@@ -29,7 +29,7 @@ public class HashTable<K, V> {
     private int size;
     private static final int DEFAULT_CAPACITY = 16;
 
-]
+
     public HashTable() {
         table = new LinkedList[DEFAULT_CAPACITY];
         size = 0;

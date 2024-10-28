@@ -30,6 +30,5 @@ public class Restaurant {
     public int getOrderCount() {
         return orders.size();
     }
-
-
+    
 }
