@@ -3,7 +3,7 @@ package lab4;
 public class ArrayAverage {
  
     public static void main(String[] args) { 
-        Object[] arr = {1, 2, 3, 4, "sss"};
+        Object[] arr = {1, 2, 3, 4, "hfhjif"};
         int sum = 0;
         
         try {

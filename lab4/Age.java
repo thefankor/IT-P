@@ -14,6 +14,7 @@ public class Age {
             System.out.println("Возраст " + age + " корректен.");
             // int a = 0/0;
         } catch (CustomAgeException e) {
+            
             System.out.println("Ошибка: " + e.getMessage());
             ExceptionLogger.logException(e);
         } catch (Exception e) {
